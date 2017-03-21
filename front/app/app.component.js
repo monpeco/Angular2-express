@@ -25,10 +25,11 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     core_1.Component({
         selector: 'my-app',
-        template: 'Hello World!',
+        template: 'Hello World!!',
         providers: []
     }),
-    __metadata("design:paramtypes", [http_1.Http])
+    __metadata("design:paramtypes", [typeof (_a = typeof http_1.Http !== "undefined" && http_1.Http) === "function" && _a || Object])
 ], AppComponent);
 exports.AppComponent = AppComponent;
+var _a;
 //# sourceMappingURL=app.component.js.map

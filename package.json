@@ -1,7 +1,6 @@
 {
   "name": "Angular2-express",
   "version": "1.0.0",
-  "description": "",
   "scripts": {
     "start": "node app.js"
   },
@@ -10,5 +9,17 @@
   "dependencies": {
     "body-parser": "^1.13.3",
     "express": "^4.13.3"
-  }
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monpeco/Angular2-express.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/monpeco/Angular2-express/issues"
+  },
+  "homepage": "https://github.com/monpeco/Angular2-express#readme",
+  "description": ""
 }

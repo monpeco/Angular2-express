@@ -3,7 +3,7 @@ import { Http } from '@angular/http';
 
 @Component({
   selector: 'my-app',
-  template: 'Hello World!',
+  template: 'Hello World!!',
   providers: []
 })
 export class AppComponent { 

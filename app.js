@@ -15,3 +15,9 @@ app.use( express.static(__dirname + '/front' ) );
 app.get('/test', function(req,res){ //example http request receiver
   return res.send(myTestVar);
 });
+
+//send the index.html on every page refresh and let angular handle the routing
+app.get('/*',  function(req, res, next) {
+    console.log("Reloading");
+    res.sendFile('index.html', { root: __dirname }); 
+});
